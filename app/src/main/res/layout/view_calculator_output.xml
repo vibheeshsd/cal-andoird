@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:gravity="center_vertical"
+    tools:parentTag="android.widget.LinearLayout"
+    tools:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/calculator_input_equation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="7*7"
+        android:layout_gravity="end"
+        android:textSize="@dimen/textSizeCalculatorEquation"
+        android:padding="14dp"
+        android:maxLines="3"
+        android:gravity="end"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/calculator_input_outcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="15"
+        android:layout_gravity="end"
+        android:textSize="@dimen/textSizeCalculatorOutcome"
+        android:padding="14dp"
+        android:maxLines="1"
+
+        android:textColor="@color/grey" />
+
+
+</merge>
